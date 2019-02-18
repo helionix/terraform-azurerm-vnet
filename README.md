@@ -34,13 +34,14 @@ module "vnet" {
 
 ## Outputs
 
-| Name                 | Description                                    |
-|:---------------------|:-----------------------------------------------|
-| vnet\_address\_space | The address space of the newly created vNet    |
-| vnet\_id             | The id of the newly created vNet               |
-| vnet\_location       | The location of the newly created vNet         |
-| vnet\_name           | The Name of the newly created vNet             |
-| vnet\_subnets_ids    | The ids of subnets created inside the new vNet |
+| Name                 | Description                                      |
+|:---------------------|:-------------------------------------------------|
+| vnet\_address\_space | The address space of the newly created vNet      |
+| vnet\_id             | The id of the newly created vNet                 |
+| vnet\_location       | The location of the newly created vNet           |
+| vnet\_name           | The Name of the newly created vNet               |
+| vnet\_subnets_ids    | The ids of subnets created inside the new vNet   |
+| vnet\_subnets_names  | The names of subnets created inside the new vNet |
 
 
 ## License
